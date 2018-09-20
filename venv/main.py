@@ -59,7 +59,4 @@ over = result['response'][1]['risetime']
 style = ('Arial', 10, 'bold')
 location.write(time.ctime(over), font=style)
 
-
-
-
 turtle.mainloop()
