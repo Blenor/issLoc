@@ -54,7 +54,6 @@ response = urllib.request.urlopen(url)
 result = json.loads(response.read())
 
 over = result['response'][1]['risetime']
-#print(over)
 
 style = ('Arial', 10, 'bold')
 location.write(time.ctime(over), font=style)
